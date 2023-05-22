@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+
+/* Estilo para as âncoras do menu */
+    .menu-anchor {
+      font-family: Arial, sans-serif;
+      color: black;
+      margin-left: 20px;
+      text-decoration: none; 
+    }
+    
+    #menu-superior img {
+  		width: 100px;
+      	height: 100px;
+	}
+	
+	#menu-superior {
+      background-color: white;
+      font-size: 16px; 
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+	
+	body {
+      background-color: white;
+    }
+
+    .content-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+      border-radius: 10px;
+      overflow: hidden; 
+    }
+
+    .content-wrapper:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .content-wrapper .text {
+      flex: 1;
+      padding: 20px;
+      background-color: white;
+    }
+
+    .content-wrapper .text h2 {
+      font-family: Arial, sans-serif;
+      font-size: 25px; 
+      margin-top: 0;
+    }
+    
+    .content-wrapper .text p {
+      font-family: Arial, sans-serif;
+      font-size: 15px; 
+      margin-top: 0;
+    }
+
+    .content-wrapper .image {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .content-wrapper .image img {
+  		max-width: 100%;
+      	height: auto;
+	}
